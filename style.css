@@ -9,7 +9,10 @@
     background: linear-gradient(to right, #ffe5ec, #fce38a);
     color: #333;
   } */
-  
+  .hero-text {
+    text-align: center;
+    color: rgb(246, 128, 128);
+  }
   header {
     background-color: #ff6b81;
     color: white;
@@ -32,8 +35,19 @@
   nav a:hover {
     text-decoration: underline;
   }
- 
   .hero {
+    background-image: url("images/doll2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  /* .hero {
     background: url('images/teddy_home.jpeg');
     background-size: cover;
     background-position: center;
@@ -42,12 +56,12 @@
     text-shadow: 1px 1px 4px #000;
     padding: 100px 20px;
     text-align: center;
-  }
-  .hero {
+  } */
+  /* .hero {
     text-align: center;
     padding: 60px 20px;
     background-color: #fff;
-  }
+  } */
   
   .hero h2 {
     font-size: 2em;
@@ -80,7 +94,9 @@
     gap: 30px;
     padding: 40px 20px;
     justify-content: center;
-    background-color: #fff5f7;
+    background-image: url("images/teddy.jpg");
+    /* background-image: url("images/back.jpeg"); */
+    background-color: #c2bcb2;
   }
   
   .product {
@@ -119,7 +135,8 @@
     padding: 40px;
     max-width: 600px;
     margin: auto;
-    background: white;
+    background-image: url("images/doll2.png");
+    /* background: white; */
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   }
@@ -175,5 +192,27 @@
     color: white;
     text-align: center;
     padding: 15px 10px;
+  }
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  
+  .fade1 {
+    animation-delay: 0.5s;
+  }
+  
+  .fade2 {
+    animation-delay: 1.5s;
+  }
+  
+  .fade3 {
+    animation-delay: 2.5s;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
   }
   
