@@ -94,7 +94,7 @@
     gap: 30px;
     padding: 40px 20px;
     justify-content: center;
-    background-image: url("images/teddy.jpg");
+    /* background-image: url("images/teddy.jpg"); */
     /* background-image: url("images/back.jpeg"); */
     background-color: #c2bcb2;
   }
